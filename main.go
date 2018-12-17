@@ -51,6 +51,7 @@ func main() {
 	}
 
 	// Check if the mac address(s) are inputed on the commandline. If not check if a file name was given instead
+	// Get the converted mac address(s) and print the mac address(s) out to the CLI
 	if *macAddr != "" {
 		newMac = getMac(*macAddr, *inputType, *outputType)
 		printMac(newMac)
