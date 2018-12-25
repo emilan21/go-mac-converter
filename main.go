@@ -36,7 +36,8 @@ func main() {
 	// Parse command line flags
 	flag.Parse()
 
-	// If no command line arguments print helpful message then return. If not input type and/or output type entered on the command line. Also print a helpful message then return.
+	// If no command line arguments print helpful message then return. If not input type and/or output type entered on the command line.
+	// Also print a helpful message then return.
 	if len(os.Args) < 1 {
 		fmt.Println("No command line arguments. Type -h for help")
 		return
